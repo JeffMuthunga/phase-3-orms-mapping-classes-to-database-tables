@@ -3,5 +3,8 @@
 require 'pry'
 require_relative '../config/environment'
 
+shit_yangu = Song.new(name: "Shit Yangu", album: "Ndani ya cockpit 2")
+lie = Song.new(name:"Lie", album: "7 seconds to mars")
+
 binding.pry
 "pls"
